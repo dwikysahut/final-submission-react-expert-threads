@@ -1,5 +1,7 @@
 /* eslint-disable import/no-extraneous-dependencies */
-import { Box, Button, Heading, Spacer } from '@chakra-ui/react';
+import {
+  Box, Button, Heading, Spacer,
+} from '@chakra-ui/react';
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import FormInput from './atom/FormInput';
