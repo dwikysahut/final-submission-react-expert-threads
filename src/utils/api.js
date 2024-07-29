@@ -12,7 +12,6 @@ const api = (() => {
   const getOwnProfile = () => fetchWithAuth({ method: 'GET', url: '/users/me' });
 
 
-  //test
   // comment
   const postComment = (id, value) => fetchWithAuth({ method: 'POST', url: `/threads/${id}/comments`, value });
 
