@@ -7,9 +7,9 @@ import FormInput from './atom/FormInput';
 export default function AuthForm({ title, isRegister = false, onSubmitHandler }) {
   const [field, setField] = useState({ email: '', password: '', name: '' });
 
-  const onChangeFieldHandler = (type) => (e) => {
-    setField((prevState) => ({ ...prevState, [type]: e.target?.value }));
-  };
+  // const onChangeFieldHandler = (type) => (e) => {
+  //   setField((prevState) => ({ ...prevState, [type]: e.target?.value }));
+  // };
 
   return (
     <>
