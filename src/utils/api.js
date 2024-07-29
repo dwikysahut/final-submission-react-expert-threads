@@ -15,6 +15,7 @@ const api = (() => {
   // comment
   const postComment = (id, value) => fetchWithAuth({ method: 'POST', url: `/threads/${id}/comments`, value });
 
+  //try
   // threads
   const getAllThreads = () => axiosConfig.get('/threads');
   const getThread = (id) => axiosConfig.get(`/threads/${id}`);
