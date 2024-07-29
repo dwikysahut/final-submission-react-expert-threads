@@ -11,6 +11,8 @@ const api = (() => {
   const login = (value) => axiosConfig.post('/login', value);
   const getOwnProfile = () => fetchWithAuth({ method: 'GET', url: '/users/me' });
 
+
+  //test
   // comment
   const postComment = (id, value) => fetchWithAuth({ method: 'POST', url: `/threads/${id}/comments`, value });
 
