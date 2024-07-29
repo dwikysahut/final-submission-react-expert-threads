@@ -20,4 +20,4 @@ const asyncGetThread = (id) => async (dispatch) => {
   }
 };
 
-export { asyncGetThread };
+export { asyncGetThread, getAllThreadDetailActionCreator };

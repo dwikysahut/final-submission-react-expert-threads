@@ -11,10 +11,10 @@ const api = (() => {
   const login = (value) => axiosConfig.post('/login', value);
   const getOwnProfile = () => fetchWithAuth({ method: 'GET', url: '/users/me' });
 
-
   // comment
   const postComment = (id, value) => fetchWithAuth({ method: 'POST', url: `/threads/${id}/comments`, value });
 
+  // try
   // threads
   const getAllThreads = () => axiosConfig.get('/threads');
   const getThread = (id) => axiosConfig.get(`/threads/${id}`);
