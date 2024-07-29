@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  min-height: 100vh !important;
+}
+
+.elipsis-text {
+  display: block;
+  -webkit-line-clamp: 4; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  height: calc(14px * 1.2 * 4);
+}
+
+.chakra-avatar__initials {
+  text-align: center;
+  overflow: hidden;
+}

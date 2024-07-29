@@ -1,0 +1,30 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "cypress/globals":true,
+    },
+    "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react",
+        "cypress"
+    ],
+    "rules": {
+        "max-len": "off",
+        "no-alert": "off",
+        "no-console": "off",
+        "eslint-plugin-import/no-extraneous-dependencies": "off",
+        "linebreak-style": "off",
+        "eslint-plugin-import/no-default-export": "off"
+    }
+}
